@@ -13,6 +13,11 @@ public class BookStack {
         }
 
         int[] result = findStacks(heights);
+
+        System.out.println(result[0]);
+        for (int i = 1; i < result.length; i++) {
+            System.out.println(result[i] + " ");
+        }
     }
 
     private static int[] findStacks(int[] heights) {
